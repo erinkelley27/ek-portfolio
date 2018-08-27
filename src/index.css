@@ -1,0 +1,116 @@
+body {
+  /* background: #EFF2F2; */
+  font-family: 'Nunito', sans-serif
+}
+
+h1 {
+  margin: 10px 2% 10px 2%;
+  font-family: 'Space Mono', monospace;
+  font-size: 48px;
+  /* border: solid red 5px; */
+}
+
+.home-link {
+  text-decoration: none;
+}
+
+.home-link:visited {
+  color: black;
+}
+
+.home-link:active {
+  color: #DDAFB6;
+}
+
+.pink {
+  margin:0;
+  padding:0;
+  border: solid #DDAFB6 5px;
+  position: absolute;
+  width: 100%;
+}
+
+nav {
+  margin: 10px 2% 10px 2%;
+  padding: 10px;
+  font-family: 'Space Mono', monospace;
+  /* border: solid yellow 5px; */
+}
+
+ul {
+  margin: 10px 2% 10px 2%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 0px 0px 30%;
+  /* border: solid green 5px; */
+}
+
+li {
+  margin: 10px 2% 10px 2%;
+  padding: 10px 25px 10px 25px;
+  font-family: 'Space Mono', monospace;
+  font-size: 30px;
+  list-style: none;
+  /* border: solid blue 5px; */
+}
+
+h2 {
+  font-size: 36px;
+}
+
+.about-link {
+  text-decoration: none;
+}
+
+.about-link:visited {
+  color: black;
+}
+
+.about-link:active {
+  color: #C2CCCD;
+}
+
+.resume-link {
+  text-decoration: none;
+}
+
+.resume-link:visited {
+  color: black;
+}
+
+.resume-link:active {
+  color: #C2CCCD;
+}
+
+.contact-link {
+  text-decoration: none;
+}
+
+.contact-link:visited {
+  color: black;
+}
+
+.contact-link:active {
+  color: #C2CCCD;
+}
+
+footer {
+  /* border: solid orange 5px; */
+  margin: 98px 2% 10px 2%;
+  padding: 10px 25px 10px 25px;
+  text-align: right;
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+#linkedin {
+  padding: 0px 5px 0px 5px;
+  height: 35px;
+}
+
+#instagram {
+  padding: 0px 0px 0px 5px;
+  height: 35px;
+}
