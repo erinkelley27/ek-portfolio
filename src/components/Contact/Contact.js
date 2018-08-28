@@ -38,11 +38,11 @@ class Contact extends Component {
       <div className='contact'>
         <form className='contact-me'>
           <p className='input-header'>Name:</p>
-          <input type='text' placeholder='Name' className='input-field' onChange={this.setName} />
+          <textarea type='text' placeholder='Name' className='input-field' onChange={this.setName} />
           <p className='input-header'>Email:</p>
-          <input type='text' placeholder='Email Address' className='input-field' onChange={this.setEmail} />
+          <textarea type='text' placeholder='Email Address' className='input-field' onChange={this.setEmail} />
           <p className='input-header'>Subject:</p>
-          <input type='text' placeholder='Subject' className='input-field' onChange={this.setSubject} />
+          <textarea type='text' placeholder='Subject' className='input-field' onChange={this.setSubject} />
           <p className='input-header'>Message:</p>
           <textarea type='text' placeholder='Message' className='input-field' id='message-field' onChange={this.setMessage} />
           <br />

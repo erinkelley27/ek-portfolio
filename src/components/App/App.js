@@ -4,6 +4,7 @@ import { Route, Link, Switch } from 'react-router-dom'
 import Home from '../Home/Home'
 import About from '../About/About'
 import Resume from '../Resume/Resume'
+import Blog from '../Blog/Blog'
 import Contact from '../Contact/Contact'
 
 class App extends Component {
@@ -23,6 +24,9 @@ class App extends Component {
             </Link>
             <Link to='/resume' className='resume-link'>
               <li><h2>RESUME</h2></li>
+            </Link>
+            <Link to='/blog' className='blog-link'>
+              <li><h2>BLOG</h2></li>
             </Link>
             <Link to='/contact' className='contact-link'>
               <li><h2>CONTACT</h2></li>
@@ -48,6 +52,11 @@ class App extends Component {
             />
             <Route
               exact
+              path='/blog'
+              component={Blog}
+            />
+            <Route
+              exact
               path='/contact'
               component={Contact}
             />
@@ -60,6 +69,8 @@ class App extends Component {
           <a href='https://www.instagram.com/obsessedwithyouguys/' target='_blank'>
             <img src='http://www.transparentpng.com/download/instagram-logo-icon/48Z4qt-black-white-instagram-logo-transparent-icon.png' alt='Instagram' id='instagram' />
           </a>
+          <br />
+          <p className='react'>Built with ReactJS</p>
         </footer>
       </div>
     )

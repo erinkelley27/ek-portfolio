@@ -1,5 +1,5 @@
 body {
-  /* background: #EFF2F2; */
+  background: #FFFCF9;
   font-family: 'Nunito', sans-serif
 }
 
@@ -12,20 +12,21 @@ h1 {
 
 .home-link {
   text-decoration: none;
+  color: #352D39;
 }
 
 .home-link:visited {
-  color: black;
+  color: #352D39;
 }
 
 .home-link:active {
-  color: #DDAFB6;
+  color: #6D435A;
 }
 
 .pink {
   margin:0;
   padding:0;
-  border: solid #DDAFB6 5px;
+  border: solid #FF6978 5px;
   position: absolute;
   width: 100%;
 }
@@ -60,38 +61,54 @@ h2 {
 
 .about-link {
   text-decoration: none;
+  color: #352D39;
 }
 
 .about-link:visited {
-  color: black;
+  color: #352D39;
 }
 
 .about-link:active {
-  color: #C2CCCD;
+  color: #6D435A;
 }
 
 .resume-link {
   text-decoration: none;
+  color: #352D39;
 }
 
 .resume-link:visited {
-  color: black;
+  color: #352D39;
 }
 
 .resume-link:active {
-  color: #C2CCCD;
+  color: #6D435A;
+}
+
+.blog-link {
+  text-decoration: none;
+  color: #352D39;
+}
+
+.blog-link:visited {
+  color: #352D39;
+}
+
+.blog-link:active {
+  color: #6D435A;
 }
 
 .contact-link {
   text-decoration: none;
+  color: #352D39;
 }
 
 .contact-link:visited {
-  color: black;
+  color: #352D39;
 }
 
 .contact-link:active {
-  color: #C2CCCD;
+  color: #FF6978;
 }
 
 footer {
@@ -113,4 +130,8 @@ footer {
 #instagram {
   padding: 0px 0px 0px 5px;
   height: 35px;
+}
+
+.react {
+  font-size: 12px;
 }
