@@ -1,6 +1,7 @@
 body {
-  background: #FFFCF9;
-  font-family: 'Nunito', sans-serif
+  background: #F8F8F8;
+  font-family: 'Nunito', sans-serif;
+  color: #000100;
 }
 
 h1 {
@@ -10,23 +11,23 @@ h1 {
   /* border: solid red 5px; */
 }
 
-.home-link {
+.nav-link {
   text-decoration: none;
-  color: #352D39;
+  color: #000100;
 }
 
-.home-link:visited {
-  color: #352D39;
+.nav-link:visited {
+  color: #000100;
 }
 
-.home-link:active {
-  color: #6D435A;
+.nav-link:active {
+  color: #A1A6B4;
 }
 
 .pink {
   margin:0;
   padding:0;
-  border: solid #FF6978 5px;
+  border: solid #94C5CC 5px;
   position: absolute;
   width: 100%;
 }
@@ -57,58 +58,6 @@ li {
 
 h2 {
   font-size: 36px;
-}
-
-.about-link {
-  text-decoration: none;
-  color: #352D39;
-}
-
-.about-link:visited {
-  color: #352D39;
-}
-
-.about-link:active {
-  color: #6D435A;
-}
-
-.resume-link {
-  text-decoration: none;
-  color: #352D39;
-}
-
-.resume-link:visited {
-  color: #352D39;
-}
-
-.resume-link:active {
-  color: #6D435A;
-}
-
-.blog-link {
-  text-decoration: none;
-  color: #352D39;
-}
-
-.blog-link:visited {
-  color: #352D39;
-}
-
-.blog-link:active {
-  color: #6D435A;
-}
-
-.contact-link {
-  text-decoration: none;
-  color: #352D39;
-}
-
-.contact-link:visited {
-  color: #352D39;
-}
-
-.contact-link:active {
-  color: #FF6978;
 }
 
 footer {

@@ -2,51 +2,21 @@ import React, { Component } from 'react'
 import './Contact.css'
 
 class Contact extends Component {
-  constructor () {
-    super()
-    this.state = {
-      name: '',
-      email: '',
-      subject: '',
-      message: ''
-    }
-    // this.handleSubmit = this.handleSubmit.bind(this)
-  }
-
-  setName (e) {
-    this.setState({name: e.target.value})
-  }
-
-  setEmail (e) {
-    this.setState({email: e.target.value})
-  }
-
-  setSubject (e) {
-    this.setState({subject: e.target.value})
-  }
-
-  setMessage (e) {
-    this.setState({message: e.target.value})
-  }
-
-  // handleSubmit (e) {
-  //   e.preventDefault()
-  // }
-
   render () {
     return (
       <div className='contact'>
-        <form className='contact-me'>
+        <form className='contact-me'action='https://formspree.io/erinkelley27@gmail.com'
+          method='POST'>
           <p className='input-header'>Name:</p>
-          <textarea type='text' placeholder='Name' className='input-field' onChange={this.setName} />
+          <textarea type='text' name='name' placeholder='Name' className='input-field' />
           <p className='input-header'>Email:</p>
-          <textarea type='text' placeholder='Email Address' className='input-field' onChange={this.setEmail} />
+          <textarea type='text' name='_replyto' placeholder='Email Address' className='input-field' />
           <p className='input-header'>Subject:</p>
-          <textarea type='text' placeholder='Subject' className='input-field' onChange={this.setSubject} />
+          <textarea type='text' name='subject' placeholder='Subject' className='input-field' />
           <p className='input-header'>Message:</p>
-          <textarea type='text' placeholder='Message' className='input-field' id='message-field' onChange={this.setMessage} />
+          <textarea type='text' name='message' placeholder='Message' className='input-field' id='message-field' />
           <br />
-          <input type='submit' value='SUBMIT' className='submit-button' onClick={this.handleSubmit} />
+          <input type='submit' value='SEND' className='submit-button' />
         </form>
       </div>
     )

@@ -4,4 +4,17 @@
 
 .resume-img {
     width: 100%;
+    border: solid #A1A6B4 2px;
 }
+
+.resume-link {
+    text-decoration: none;
+}
+
+.resume-link:visited {
+    color: #000100;
+  }
+  
+  .resume-link:active {
+    color: #A1A6B4;
+  }

@@ -12,23 +12,23 @@ class App extends Component {
     return (
       <div className='ek-portfolio'>
         <div className='title'>
-          <Link to='/' className='home-link'>
+          <Link to='/' className='nav-link'>
             <h1>ERIN KELLEY</h1>
           </Link>
         </div>
         <div class='pink' />
         <nav>
           <ul className='navBar'>
-            <Link to='/about' className='about-link'>
+            <Link to='/about' className='nav-link'>
               <li><h2>ABOUT</h2></li>
             </Link>
-            <Link to='/resume' className='resume-link'>
+            <Link to='/resume' className='nav-link'>
               <li><h2>RESUME</h2></li>
             </Link>
-            <Link to='/blog' className='blog-link'>
+            <Link to='/blog' className='nav-link'>
               <li><h2>BLOG</h2></li>
             </Link>
-            <Link to='/contact' className='contact-link'>
+            <Link to='/contact' className='nav-link'>
               <li><h2>CONTACT</h2></li>
             </Link>
           </ul>

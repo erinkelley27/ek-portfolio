@@ -1,10 +1,11 @@
 .blog {
     margin: 0px 25% 5% 14%;
-    background: #e1f5fe;
-    border: solid pink 5px;
+    padding: 25px;
+    background: #B4D2E7;
+    /* border: solid pink 5px; */
 }
 
 .obsessed-img {
     width: 100%;
-    border: solid black 5px;
+    /* border: solid black 5px; */
 }
