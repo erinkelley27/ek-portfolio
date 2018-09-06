@@ -3,6 +3,7 @@ import { Route, Link, Switch } from 'react-router-dom'
 
 import Home from '../Home/Home'
 import About from '../About/About'
+import Work from '../Work/Work'
 import Resume from '../Resume/Resume'
 import Blog from '../Blog/Blog'
 import Contact from '../Contact/Contact'
@@ -21,6 +22,9 @@ class App extends Component {
           <ul className='navBar'>
             <Link to='/about' className='nav-link'>
               <li><h2>ABOUT</h2></li>
+            </Link>
+            <Link to='/work' className='nav-link'>
+              <li><h2>WORK</h2></li>
             </Link>
             <Link to='/resume' className='nav-link'>
               <li><h2>RESUME</h2></li>
@@ -47,6 +51,11 @@ class App extends Component {
             />
             <Route
               exact
+              path='/work'
+              component={Work}
+            />
+            <Route
+              exact
               path='/resume'
               component={Resume}
             />
@@ -63,14 +72,22 @@ class App extends Component {
           </Switch>
         </main>
         <footer>
-          <a href='https://www.linkedin.com/in/erinmargaretkelley/' target='_blank'>
-            <img src='https://png.icons8.com/metro/1600/linkedin.png' alt='LinkedIn' id='linkedin' />
-          </a>
-          <a href='https://www.instagram.com/obsessedwithyouguys/' target='_blank'>
-            <img src='http://www.transparentpng.com/download/instagram-logo-icon/48Z4qt-black-white-instagram-logo-transparent-icon.png' alt='Instagram' id='instagram' />
-          </a>
-          <br />
-          <p className='react'>Built with ReactJS</p>
+          <div className='logos'>
+            <a href='mailto:erinkelley27@gmail.com' target='_blank'>
+              <img src={require('./email-gray.png')} alt='Email' className='logo' />
+            </a>
+            <a href='https://github.com/erinkelley27' target='_blank'>
+              <img src={require('./github-gray.png')} alt='Github' className='logo' />
+            </a>
+            <a href='https://www.linkedin.com/in/erinmargaretkelley/' target='_blank'>
+              <img src={require('./linkedin-gray.png')} alt='LinkedIn' className='logo' />
+            </a>
+            <a href='https://www.instagram.com/obsessedwithyouguys/' target='_blank'>
+              <img src={require('./instagram-gray.png')} alt='Instagram' className='logo' />
+            </a>
+          </div>
+          {/* <br />
+          <p className='react'>Built with ReactJS</p> */}
         </footer>
       </div>
     )

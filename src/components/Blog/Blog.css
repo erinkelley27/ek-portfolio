@@ -1,11 +1,33 @@
 .blog {
     margin: 0px 25% 5% 14%;
-    padding: 25px;
-    background: #B4D2E7;
+    padding: 10px;
+    /* border: solid #fe99ad 10px; */
+    /* border-radius: 35px; */
+    box-shadow: 10px 10px 100px -15px rgba(199,201,199,1);
+    /* background: #66cccc; */
     /* border: solid pink 5px; */
 }
 
-.obsessed-img {
+.blog-header {
+    padding: 0px 25px 0px 25px;
+    /* font-family: 'Space Mono', monospace; */
+    /* font-family: 'Acme', sans-serif; */
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 30px;
+  }
+
+/* .obsessed-text {
+    background: #FEDC3D;
+    border-radius: 35px;
+} */
+
+.blog-desc {
+    padding: 0px 25px 0px 25px;
+}
+
+.blog-img {
     width: 100%;
+    margin: 10px 0px 0px 0px;
+    border-radius:10px;
     /* border: solid black 5px; */
 }

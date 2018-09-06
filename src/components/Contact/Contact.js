@@ -7,16 +7,16 @@ class Contact extends Component {
       <div className='contact'>
         <form className='contact-me'action='https://formspree.io/erinkelley27@gmail.com'
           method='POST'>
-          <p className='input-header'>Name:</p>
+          <p className='input-header'>NAME:</p>
           <textarea type='text' name='name' placeholder='Name' className='input-field' />
-          <p className='input-header'>Email:</p>
+          <p className='input-header'>EMAIL:</p>
           <textarea type='text' name='_replyto' placeholder='Email Address' className='input-field' />
-          <p className='input-header'>Subject:</p>
+          <p className='input-header'>SUBJECT:</p>
           <textarea type='text' name='subject' placeholder='Subject' className='input-field' />
-          <p className='input-header'>Message:</p>
+          <p className='input-header'>MESSAGE:</p>
           <textarea type='text' name='message' placeholder='Message' className='input-field' id='message-field' />
           <br />
-          <input type='submit' value='SEND' className='submit-button' />
+          <input type='submit' name='submit' value='SEND' className='submit-button' />
         </form>
       </div>
     )
