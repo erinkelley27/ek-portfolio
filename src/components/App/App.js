@@ -21,19 +21,19 @@ class App extends Component {
         <nav>
           <ul className='navBar'>
             <Link to='/about' className='nav-link'>
-              <li><h2>ABOUT</h2></li>
+              <li>ABOUT</li>
             </Link>
             <Link to='/work' className='nav-link'>
-              <li><h2>WORK</h2></li>
+              <li>WORK</li>
             </Link>
             <Link to='/resume' className='nav-link'>
-              <li><h2>RESUME</h2></li>
+              <li>RESUME</li>
             </Link>
             <Link to='/blog' className='nav-link'>
-              <li><h2>BLOG</h2></li>
+              <li>BLOG</li>
             </Link>
             <Link to='/contact' className='nav-link'>
-              <li><h2>CONTACT</h2></li>
+              <li>CONTACT</li>
             </Link>
           </ul>
         </nav>

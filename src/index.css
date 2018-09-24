@@ -1,27 +1,16 @@
 body {
-  /* background: #535353; */
   background: #FFFFFF;
-  /* background: #F1FFFA; */
-  /* font-family: 'Nunito', sans-serif; */
-  /* background-image: url('./components/App/background.jpg'); */
-  background-image: url('./components/App/background2.png');
-  /* background-image: url('./components/App/background3.jpg'); */
-  /* font-family: 'Poppins', sans-serif; */
+  background-image: url('./components/App/background.png');
   font-family: 'Muli', sans-serif;
   font-size: 18px;
-  /* color: #000000; */
   color: #464E47;
 }
 
 h1 {
   margin: 10px 2% 10px 2%;
-  /* font-family: 'Space Mono', monospace; */
-  /* font-family: 'Acme', sans-serif; */
   font-family: 'Fredericka the Great', cursive;
-  /* font-family: 'Cabin Sketch', cursive; */
   font-size: 60px;
   font-weight: normal;
-  /* border: solid red 5px; */
 }
 
 .nav-link {
@@ -37,18 +26,13 @@ h1 {
 
 .nav-link:active {
   color: #4C934C;
-  /* color: #FEDC3D; */
 }
 
 .pink {
   margin: 0;
   padding: 0;
-  /* border: solid #fe99ad 5px; */
-  /* border: solid #000000 5px; */
-  /* background: #000000; */
-  /* background: #96E6B3; */
   background: #464E47;
-  /* background-image: url('./components/App/wood.jpg'); */
+  /* box-shadow: 10px 10px 100px -15px rgba(199,201,199,1); */
   position: absolute;
   height: 10px;
   width: 100%;
@@ -57,38 +41,26 @@ h1 {
 nav {
   margin: 10px 2% 10px 2%;
   padding: 10px;
-  /* font-family: 'Space Mono', monospace; */
-  /* font-family: 'Acme', sans-serif; */
-  /* border: solid yellow 5px; */
 }
 
 ul {
-  margin: 5px 2% 10px 2%;
+  /* border: solid black 5px; */
+  margin: 5px 2% 10px 30%;
   display: flex;
-  justify-content: space-around;
-  margin: 0px 0px 0px 30%;
-  /* border: solid green 5px; */
+  justify-content: space-between;
+  /* margin: 0px 0px 0px 30%; */
 }
 
 li {
+  /* border: solid red 5px; */
   margin: 5px 2% 10px 2%;
-  padding: 5px 25px 10px 25px;
-  /* font-family: 'Space Mono', monospace; */
-  /* font-family: 'Acme', sans-serif; */
+  padding: 25px 25px 25px 25px;
   font-family: 'Fredericka the Great', cursive;
-  /* font-size: 36px; */
-  list-style: none;
-  /* border: solid blue 5px; */
-}
-
-h2 {
   font-size: 40px;
-  font-weight: normal;
-  /* font-family: 'Acme', sans-serif; */
+  list-style: none;
 }
 
 footer {
-  /* border: solid orange 5px; */
   margin: 98px 2% 10px 90%;
   padding: 10px 25px 10px 25px;
   text-align: right;
@@ -104,13 +76,11 @@ footer {
   flex-direction: column;
   justify-content: flex-end;
   float: right;
-  /* border: solid green 2px; */
 }
 
 .logo {
   padding: 15px 5px 15px 5px;
   height: 60px;
-  /* justify-content: right; */
 }
 
 .react {
@@ -124,7 +94,6 @@ footer {
 }
 
 .click-for-site-text {
-  /* border: solid black 5px; */
   padding: 0px 25px 0px 25px;
   text-decoration: none;
   color: #464E47;

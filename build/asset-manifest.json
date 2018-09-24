@@ -1,11 +1,15 @@
 {
-  "main.css": "static/css/main.8ab1834a.css",
-  "main.css.map": "static/css/main.8ab1834a.css.map",
-  "main.js": "static/js/main.7ba43521.js",
-  "main.js.map": "static/js/main.7ba43521.js.map",
-  "static/media/background.jpg": "static/media/background.37c17671.jpg",
-  "static/media/erinkelley_resume.png": "static/media/erinkelley_resume.d5ffa346.png",
-  "static/media/github.png": "static/media/github.65719c91.png",
-  "static/media/instagram.png": "static/media/instagram.21464cf4.png",
+  "main.css": "static/css/main.e75e5e1f.css",
+  "main.css.map": "static/css/main.e75e5e1f.css.map",
+  "main.js": "static/js/main.390a1691.js",
+  "main.js.map": "static/js/main.390a1691.js.map",
+  "static/media/background.png": "static/media/background.3b0c6769.png",
+  "static/media/bunble.png": "static/media/bunble.139cd561.png",
+  "static/media/email-gray.png": "static/media/email-gray.c1c56685.png",
+  "static/media/erinkelley_resume.png": "static/media/erinkelley_resume.696ae501.png",
+  "static/media/github-gray.png": "static/media/github-gray.a83fbf6a.png",
+  "static/media/headshot.jpg": "static/media/headshot.fae7601e.jpg",
+  "static/media/instagram-gray.png": "static/media/instagram-gray.26a3c5f2.png",
+  "static/media/love-away.png": "static/media/love-away.0b22e927.png",
   "static/media/obsessed.png": "static/media/obsessed.023f9ccd.png"
 }

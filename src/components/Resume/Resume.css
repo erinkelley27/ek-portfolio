@@ -1,15 +1,10 @@
 .resume {
     margin: 0px 25% 5% 14%;
-    /* padding: 10px; */
-    /* border-radius: 35px; */
-    /* background: #66cccc; */
     box-shadow: 10px 10px 100px -15px rgba(199,201,199,1);
 }
 
 .resume-img {
     width: 100%;
-    /* border-radius: 10px */
-    /* border: solid #A1A6B4 2px; */
 }
 
 #resume-print-link {
