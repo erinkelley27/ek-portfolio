@@ -17,24 +17,24 @@ class App extends Component {
             <h1>ERIN KELLEY</h1>
           </Link>
         </div>
-        <div class='pink' />
+        <div class='line' />
         <nav>
           <ul className='navBar'>
-            <Link to='/about' className='nav-link'>
-              <li>ABOUT</li>
-            </Link>
-            <Link to='/work' className='nav-link'>
-              <li>WORK</li>
-            </Link>
-            <Link to='/resume' className='nav-link'>
-              <li>RESUME</li>
-            </Link>
-            <Link to='/blog' className='nav-link'>
-              <li>BLOG</li>
-            </Link>
-            <Link to='/contact' className='nav-link'>
-              <li>CONTACT</li>
-            </Link>
+            <li><Link to='/about' className='nav-link'>
+              ABOUT
+            </Link></li>
+            <li><Link to='/work' className='nav-link'>
+              WORK
+            </Link></li>
+            <li><Link to='/resume' className='nav-link'>
+              RESUME
+            </Link></li>
+            <li><Link to='/blog' className='nav-link'>
+              BLOG
+            </Link></li>
+            <li><Link to='/contact' className='nav-link'>
+              CONTACT
+            </Link></li>
           </ul>
         </nav>
         <main>
