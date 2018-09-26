@@ -31,13 +31,13 @@ class Work extends Component {
           <a href='#' target='_blank' className='click-for-site'><p className='click-for-site-text'>Click for Site</p></a>
         </div>
 
-        <div className='work-block'>
+        {/* <div className='work-block'>
           <a href='http://helium-vacations.surge.sh/' target='_blank' className='click-for-site'><p className='work-header'>LOVE AWAY VACATIONS</p></a>
           <p className='work-desc'>Love Away Vacations is a site where users can browse romantic destinations throughout the world, reading city recommendations from other users in addition to submitting feedback themselves. </p>
           <p className='technologies'>Created with MongoDB, Express, ReactJS, NodeJS and CSS</p>
           <a href='http://helium-vacations.surge.sh/' target='_blank'><img src={require('./love-away.png')} alt='love away vacations' className='app-img' /></a>
           <a href='http://helium-vacations.surge.sh/' target='_blank' className='click-for-site'><p className='click-for-site-text'>Click for Site</p></a>
-        </div>
+        </div> */}
 
       </div>
     )

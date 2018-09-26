@@ -36,9 +36,9 @@ input[type='text'] {
 }
 
 .submit-button {
-    margin: 25px 10px 10px 10px;
+    margin: 25px 0px 10px 0px;
     padding: 15px 25px 15px 25px;
-    width: 15%;
+    width: 20%;
     background: #96E6B3;
     border: none;
     font-family: 'Fredericka the Great', cursive;
