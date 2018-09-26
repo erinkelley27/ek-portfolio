@@ -9,7 +9,7 @@ body {
 h1 {
   margin: 10px 2% 10px 2%;
   font-family: 'Fredericka the Great', cursive;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: normal;
 }
 
@@ -25,7 +25,7 @@ h1 {
 }
 
 .nav-link:active {
-  color: #4C934C;
+  color: #96E6B3;
 }
 
 .line {
@@ -59,9 +59,15 @@ li {
   margin: 5px 2% 10px 2%;
   padding: 25px 25px 25px 25px;
   font-family: 'Fredericka the Great', cursive;
-  font-size: 36px;
+  font-size: 30px;
   list-style: none;
   /* flex: 0 1 auto; */
+}
+
+.box {
+  margin: 0px 25% 5% 14%;
+  padding: 25px;
+  box-shadow: 10px 10px 100px -15px rgba(199,201,199,1);
 }
 
 footer {
@@ -87,10 +93,6 @@ footer {
   height: 60px;
 }
 
-.react {
-  font-size: 12px;
-}
-
 .click-for-site {
   text-decoration: none;
   font-size: 15px;
@@ -108,5 +110,54 @@ footer {
 }
 
 .click-for-site:active {
-  color: #4C934C;
+  color: #96E6B3;
+}
+
+@media only screen and (max-width: 700px) {
+  h1 {
+    text-align: center;
+    font-size: 36px;
+  }
+  
+  ul {
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  li {
+    font-size: 20px;
+  }
+
+  .box {
+    margin: 0 auto;
+    padding: 25px;
+    box-shadow: 10px 10px 100px -15px rgba(199,201,199,1);
+  }
+
+  footer {
+    margin: 0 auto;
+    /* border: solid pink 2px; */
+    text-align: center;
+    position: relative;
+    width: 80%;
+  }
+
+  .logos {
+    /* border: solid black 2px; */
+    flex-direction: row;
+    justify-content: space-around;
+    float: none;
+  }
+
+  .logo {
+      height: 25px;
+  }
+
+  .submit-button {
+    margin: 0 auto;
+    align-self: center;
+    width: 40%;
+    /* border: solid black 2px; */
+  }
 }

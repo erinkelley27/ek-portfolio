@@ -5,7 +5,9 @@
 }
 
 .head-shot {
+    padding: 0px 25px 0px 25px;
     width: 35%;
+    /* float: left; */
 }
 
 .about-header {

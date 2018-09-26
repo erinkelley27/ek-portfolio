@@ -4,7 +4,7 @@ import './Blog.css'
 class Blog extends Component {
   render () {
     return (
-      <div className='blog'>
+      <div className='box'>
         <div className='obsessed'>
           <a href='http://obsessedwithyouguys.com/' target='_blank' className='click-for-site'><p className='blog-header'>OBSESSED WITH YOU GUYS</p></a>
           <p className='blog-desc'>When I’m not at my laptop obsessing about code, I enjoy traveling the world, inventing new recipes and hosting dinner parties for my family and friends. Some of the most memorable experiences occur beyond the screen, and some of the most meaningful connections are made when sharing a meal. I love to create the opportunity for people to come together.</p>
